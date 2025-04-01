@@ -1,17 +1,18 @@
 # Site_Portfolio_Pessoal
-📌 Visão Geral
+
+## 📌 Visão Geral
 
 Este projeto consiste em um site portfólio pessoal desenvolvido com as três tecnologias fundamentais para o desenvolvimento web:
 
-HTML (Estrutura)
+. HTML (Estrutura)
 
-CSS (Estilização)
+. CSS (Estilização)
 
-JavaScript (Interatividade)
+. JavaScript (Interatividade)
 
 O objetivo é criar um site moderno, responsivo e dinâmico para exibir projetos, habilidades e informações de contato de forma profissional.
-____________________________________________________________________________________________________________________________________________
-✨ Funcionalidades
+
+## ✨ Funcionalidades
 
 ✅ Seção "Sobre Mim" – Apresentação pessoal e habilidades.
 
@@ -27,7 +28,7 @@ ________________________________________________________________________________
 
 ✅ Efeitos Interativos – Animações suaves com CSS e JS.
 _____________________________________________________________________________________________________________________________________________
-🛠️ Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 
 Tecnologia | Finalidade
 
@@ -39,7 +40,7 @@ JavaScript |	Interatividade e dinamismo
 
 Git & GitHub |	Versionamento e deploy (GitHub Pages)
 ____________________________________________________________________________________________________________________________________________
-🎨 Design & Inspiração
+## 🎨 Design & Inspiração
 
 . Layout limpo e moderno.
 
@@ -49,7 +50,7 @@ ________________________________________________________________________________
 
 . Animações em hover e scroll (CSS/JS).
 ___________________________________________________________________________________________________________________________________________
-📂 Estrutura do Projeto
+## 📂 Estrutura do Projeto
 
 portfolio/  
 ├── index.html          # Página principal  
@@ -62,7 +63,7 @@ portfolio/
 ├── README.md          # Documentação  
 └── LICENSE            # Licença (opcional)  
 __________________________________________________________________________________________________________________________________________
-🚀 Como Contribuir
+## 🚀 Como Contribuir
 
   1.Faça um fork do projeto.
 
@@ -74,7 +75,7 @@ ________________________________________________________________________________
 
   5.Abra um Pull Request para revisão.
 ________________________________________________________________________________________________________________________________________
-🔗 Links Úteis
+## 🔗 Links Úteis
 
 GitHub Pages – Hospedagem gratuita.
 
@@ -82,10 +83,10 @@ Figma – Prototipagem do design.
 
 Google Fonts – Fontes personalizadas.
 ________________________________________________________________________________________________________________________________________
-📜 Licença
+## 📜 Licença
 
 Este projeto está sob a licença MIT. Consulte o arquivo LICENSE para mais detalhes.
 ________________________________________________________________________________________________________________________________________
-🌟 Dê uma estrela no repositório se gostou!
+## 🌟 Dê uma estrela no repositório se gostou!
 
 Feito com ❤️ por Wenderson Lopes.
