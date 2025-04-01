@@ -12,12 +12,19 @@ JavaScript (Interatividade)
 O objetivo é criar um site moderno, responsivo e dinâmico para exibir projetos, habilidades e informações de contato de forma profissional.
 ____________________________________________________________________________________________________________________________________________
 ✨ Funcionalidades
+
 ✅ Seção "Sobre Mim" – Apresentação pessoal e habilidades.
+
 ✅ Seção "Projetos" – Galeria de projetos com links e descrições.
+
 ✅ Seção "Habilidades" – Lista de tecnologias dominadas.
+
 ✅ Seção "Contato" – Formulário ou links para redes sociais.
+
 ✅ Design Responsivo – Adaptável a dispositivos móveis e desktop.
+
 ✅ Modo Claro/Escuro – Alternância de tema (opcional, usando JavaScript).
+
 ✅ Efeitos Interativos – Animações suaves com CSS e JS.
 _____________________________________________________________________________________________________________________________________________
 🛠️ Tecnologias Utilizadas
