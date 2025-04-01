@@ -61,7 +61,7 @@ portfolio/
 │   │   └── script.js  
 │   └── img/           # Imagens e ícones  
 ├── README.md          # Documentação  
-└── LICENSE            # Licença (opcional)  
+└── LICENSE            # Licença MIT  
 
 ## 🚀 Como Contribuir
 
