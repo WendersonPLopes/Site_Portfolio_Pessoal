@@ -66,11 +66,11 @@ portfolio/
 
   1. Faça um fork do projeto.
 
-  2. Crie uma branch: git checkout -b minha-feature.
+  2. Crie uma branch: **git checkout -b minha-feature.**
 
-  3. Commit suas alterações: git commit -m "Adicionei um recurso".
+  3. Commit suas alterações: **git commit -m "Adicionei um recurso".**
 
-  4. Push para a branch: git push origin minha-feature.
+  4. Push para a branch: **git push origin minha-feature.**
 
 ## 🔗 Links Úteis
 
