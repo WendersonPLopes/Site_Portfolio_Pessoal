@@ -1,4 +1,8 @@
+<div align="center">
+
 ![logo pixel](https://github.com/user-attachments/assets/2344c157-469b-4172-8cef-ff87594ce001)
+
+</div>
 
 # Portfólio Pessoal
 
