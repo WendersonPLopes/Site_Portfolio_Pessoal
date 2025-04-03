@@ -1,6 +1,8 @@
 
 # Portfólio Pessoal
 
+[Visão Geral](#-visão-geral) | [Funcionalidades](#-funcionalidades) | [Tecnologias Utilizadas](#-funcionalidades) | [Design & Inspiração](#%EF%B8%8F-tecnologias-utilizadas) | [Estrutura do Projeto](#-estrutura-do-projeto) | [Como Contribuir](#-como-contribuir) | [Links Úteis](#-links-úteis) | [Licença](#-licença)
+
 ## 📌 Visão Geral
 
 Este projeto consiste em um site portfólio pessoal desenvolvido com as três tecnologias fundamentais para o desenvolvimento web:
