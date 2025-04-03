@@ -1,9 +1,3 @@
-<div align="center">
-
-![logo pixel](https://github.com/user-attachments/assets/2344c157-469b-4172-8cef-ff87594ce001)
-
-</div>
-
 # Portfólio Pessoal
 
 [Visão Geral](#-visão-geral) | [Funcionalidades](#-funcionalidades) | [Tecnologias Utilizadas](#-funcionalidades) | [Design & Inspiração](#%EF%B8%8F-tecnologias-utilizadas) | [Estrutura do Projeto](#-estrutura-do-projeto) | [Como Contribuir](#-como-contribuir) | [Links Úteis](#-links-úteis) | [Licença](#-licença)
