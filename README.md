@@ -1,5 +1,8 @@
-![logo pixel transparente](https://github.com/user-attachments/assets/2db90616-27f4-432f-a1d2-76c656821e9f)
-# Portfólio Pessoal
+<div align="center">
+
+  ![logo pixel transparente](https://github.com/user-attachments/assets/2db90616-27f4-432f-a1d2-76c656821e9f)
+
+</div>
 
 [Visão Geral](#-visão-geral) | [Funcionalidades](#-funcionalidades) | [Tecnologias Utilizadas](#-funcionalidades) | [Design & Inspiração](#%EF%B8%8F-tecnologias-utilizadas) | [Estrutura do Projeto](#-estrutura-do-projeto) | [Como Contribuir](#-como-contribuir) | [Links Úteis](#-links-úteis) | [Licença](#-licença)
 
