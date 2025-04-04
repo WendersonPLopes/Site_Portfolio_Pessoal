@@ -55,7 +55,7 @@ Git & GitHub |	Versionamento e deploy (GitHub Pages)
 
 ## 📂 Estrutura do Projeto
 
-portfolio/  
+Site_Portfolio_Pessoal/  
 ├── index.html          # Página principal  
 ├── assets/  
 │   ├── css/           # Arquivos de estilo  
@@ -64,7 +64,7 @@ portfolio/
 │   │   └── script.js  
 │   └── img/           # Imagens e ícones  
 ├── README.md          # Documentação  
-└── LICENSE            # Licença (opcional)  
+└── LICENSE            # Licença MIT  
 
 
 ## 🚀 Como Contribuir
