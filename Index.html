@@ -1,25 +1,80 @@
-<!DOCTYPE html>
-<html lang="pt.br">
+<!DOCTYPE html><!DOCTYPE html>
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wenderson Lopes</title>
-
+    <title>Portfólio Wenderson| O Herói Dev</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-    <body>
-        <header>
-            <h1>Seja bem vindo ao meu portfólio pessoal</h1>
-         </header>
-                <nav>
-                    <ul>
-                        <li><a href="#">Página Inicial</a></li>
-                        <li><a href="#">Sobre Mim</a></li>
-                        <li><a href="#">Projetos</a></li>
-                        <li><a href="#">Habilidades</a></li>
-                        <li><a href="#">Contato</a></li>
-                    </ul>
-                </nav>
-        <script src="assets/js/script.js"></script>
-    </body>
+<body>
+    <div class="game-container">
+        <!-- Tela de início -->
+        <header class="tavern-sign">
+            <h1>O Héroi Dev Wenderson</h1>
+            <p>Nível: <span id="level">15</span> | Classe: <span id="class">Front-End Mage</span></p>
+        </header>
+
+        <!-- Barra de status -->
+        <div class="status-bar">
+            <div class="health-bar">
+                <span>HP: 100%</span>
+                <div class="bar"></div>
+            </div>
+            <div class="mana-bar">
+                <span>MP: 100%</span>
+                <div class="bar"></div>
+            </div>
+        </div>
+
+        <!-- Menu de navegação -->
+        <nav class="game-menu">
+            <button onclick="loadSection('about')">🏰 Sobre Mim</button>
+            <button onclick="loadSection('quests')">📜 Missões</button>
+            <button onclick="loadSection('skills')">⚔️ Habilidades</button>
+            <button onclick="loadSection('contact')">📮 Taverna</button>
+        </nav>
+
+        <!-- Área dinâmica do jogo -->
+        <main id="game-screen">
+            <section id="about" class="active">
+                <h2>🧙‍♂️ O Herói</h2>
+                <p>Eu sou um <strong>Front-End Mage</strong>, especializado em criar mundos digitais com HTML, CSS e JavaScript.</p>
+            </section>
+
+            <section id="quests">
+                <h2>📜 Missões Concluídas</h2>
+                <div class="quest-log">
+                    <div class="quest">
+                        <h3>🐉 Site de E-commerce</h3>
+                        <p>Derrotei o dragão do carrinho de compras!</p>
+                    </div>
+                    <div class="quest">
+                        <h3>🏆 Jogo em JavaScript</h3>
+                        <p>Construí um RPG baseado em texto.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="skills">
+                <h2>⚔️ Habilidades</h2>
+                <div class="skill-tree">
+                    <div class="skill" data-level="5">HTML5</div>
+                    <div class="skill" data-level="5">CSS3</div>
+                    <div class="skill" data-level="4">JavaScript</div>
+                </div>
+            </section>
+
+            <section id="contact">
+                <h2>📮 Taverna (Contato)</h2>
+                <p>Encontre-me para uma missão:</p>
+                <ul class="social-links">
+                    <li><a href="https://github.com/seu-usuario">GitHub</a></li>
+                    <li><a href="https://linkedin.com/in/seu-usuario">LinkedIn</a></li>
+                </ul>
+            </section>
+        </main>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
 </html>

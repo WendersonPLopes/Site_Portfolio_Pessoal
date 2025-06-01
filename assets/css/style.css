@@ -1,0 +1,66 @@
+ body {
+    font-family: 'MedievalSharp', cursive;
+    background: url('assets/img/scroll-bg.jpg') no-repeat center fixed;
+    background-size: cover;
+    color: #3a2c1a;
+}
+
+.game-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(255, 248, 220, 0.9);
+    border: 10px solid #5a3921;
+    box-shadow: 0 0 20px #000;
+}
+
+.tavern-sign {
+    text-align: center;
+    border-bottom: 3px solid #5a3921;
+}
+
+.status-bar {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.health-bar, .mana-bar {
+    flex: 1;
+}
+
+.health-bar .bar {
+    background: #ff0000;
+    height: 20px;
+}
+
+.mana-bar .bar {
+    background: #0000ff;
+    height: 20px;
+}
+
+.game-menu {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.game-menu button {
+    padding: 10px;
+    background: #5a3921;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-family: 'MedievalSharp', cursive;
+}
+
+.quest-log, .skill-tree {
+    display: grid;
+    gap: 15px;
+}
+
+.quest, .skill {
+    background: rgba(255, 248, 220, 0.7);
+    padding: 10px;
+    border: 2px solid #5a3921;
+}
