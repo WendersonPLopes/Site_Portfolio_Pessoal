@@ -1,22 +1,46 @@
-  // Alternar entre seções
-function loadSection(sectionId) {
-    document.querySelectorAll('#game-screen section').forEach(section => {
-        section.classList.remove('active');
-    });
-    document.getElementById(sectionId).classList.add('active');
-}
+// Efeito lanterna que segue o mouse
+document.addEventListener('mousemove', (e) => {
+    const flashlight = document.querySelector('.flashlight');
+    flashlight.style.left = `${e.pageX}px`;
+    flashlight.style.top = `${e.pageY}px`;
+});
 
-// Efeito de digitação (opcional)
-const heroTitle = document.querySelector('.tavern-sign h1');
-const text = "";
-let index = 0;
+// Alternar tema claro/escuro
+document.getElementById('themeToggle').addEventListener('click', () => {
+    document.body.classList.toggle('light-theme');
+    document.body.classList.toggle('dark-theme');
+});
 
-function typeWriter() {
-    if (index < text.length) {
-        heroTitle.textContent += text.charAt(index);
-        index++;
-        setTimeout(typeWriter, 100);
+// Efeito de digitação para outros elementos
+function typeWriterEffect(element) {
+    const text = element.textContent;
+    element.textContent = '';
+    
+    let i = 0;
+    function type() {
+        if (i < text.length) {
+            element.textContent += text.charAt(i);
+            i++;
+            setTimeout(type, Math.random() * 100 + 50);
+        }
     }
+    type();
 }
 
-typeWriter();
+// Animações ao rolar a página
+document.querySelectorAll('.manuscript-page').forEach((page, index) => {
+    setTimeout(() => {
+        page.style.opacity = 1;
+        page.style.transform = 'translateY(0)';
+    }, 300 * index);
+});
+
+// Efeitos para cards de projetos
+document.querySelectorAll('.project-card').forEach(card => {
+    card.addEventListener('mouseenter', () => {
+        card.classList.add('glowing');
+    });
+    card.addEventListener('mouseleave', () => {
+        card.classList.remove('glowing');
+    });
+});
