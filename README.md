@@ -10,11 +10,11 @@
 
 Este projeto consiste em um site portfólio pessoal desenvolvido com as três tecnologias fundamentais para o desenvolvimento web:
 
-* HTML (Estrutura)
+* **HTML** (Estrutura)
 
-* CSS (Estilização)
+* **CSS** (Estilização)
 
-* JavaScript (Interatividade)
+* **JavaScript** (Interatividade)
 
 O objetivo é criar um site **moderno**, **responsivo** e **dinâmico** para exibir projetos, habilidades e informações de contato de forma profissional.
 
@@ -55,27 +55,28 @@ Git & GitHub |	Versionamento e deploy (GitHub Pages)
 
 ## 📂 Estrutura do Projeto
 
+```text
 Site_Portfolio_Pessoal/  
 ├── index.html          # Página principal  
 ├── assets/  
-│   ├── css/           # Arquivos de estilo  
+│   ├── css/            # Arquivos de estilo  
 │   │   └── style.css  
-│   ├── js/            # Scripts JavaScript  
+│   ├── js/             # Scripts JavaScript  
 │   │   └── script.js  
-│   └── img/           # Imagens e ícones  
-├── README.md          # Documentação  
-└── LICENSE            # Licença MIT  
-
+│   └── img/            # Imagens e ícones  
+├── README.md           # Documentação  
+└── LICENSE             # Licença MIT  
+```
 
 ## 🚀 Como Contribuir
 
   1. Faça um fork do projeto.
 
-  2. Crie uma branch: **git checkout -b minha-feature.**
+  2. Crie uma branch: `git checkout -b minha-feature.`
 
-  3. Commit suas alterações: **git commit -m "Adicionei um recurso".**
+  3. Commit suas alterações: `git commit -m "Adicionei um recurso".`
 
-  4. Push para a branch: **git push origin minha-feature.**
+  4. Push para a branch: `git push origin minha-feature.`
 
 ## 🔗 Links Úteis
 
