@@ -1,94 +1,106 @@
- :root {
-    --dark-bg: #0a0a0a;
-    --light-text: #e0e0e0;
-    --accent: #4a6da7;
-    --fog-color: rgba(100, 100, 100, 0.3);
+/*
+-----FORMATAÇÃO-----
+*/
+
+*{
+    margin: 0;
+    padding: 0;
 }
 
-body {
-    background-color: var(--dark-bg);
-    color: var(--light-text);
-    font-family: 'Courier New', monospace;
-    line-height: 1.6;
-    cursor: none;
-    overflow-x: hidden;
+/*
+-----FORMATAÇÃO GENÉRICA-----
+*/
+
+body{
+   font-family: "Roboto Mono", monospace; 
 }
 
-.flashlight {
-    position: fixed;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background: radial-gradient(
-        circle at center,
-        rgba(255,255,255,0.1) 0%,
-        rgba(255,255,255,0) 60%
-    );
-    pointer-events: none;
-    transform: translate(-50%, -50%);
-    z-index: 9999;
-    mix-blend-mode: screen;
-}
+/*
+-----CABEÇALHO-----
+*/
 
-.foggy-forest {
-    background-image: url('forest-bg.jpg');
-    background-size: cover;
-    position: relative;
-    padding: 2rem;
+
+#header{
     text-align: center;
+    border-bottom: 2px outset #FFFFFF;
+    background: #FFFFFF;
 }
 
-.foggy-forest::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: var(--fog-color);
-    animation: fogMovement 20s infinite linear;
+#logo{
+    float: left;
+
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
-@keyframes fogMovement {
-    0% { background-position: 0 0; }
-    100% { background-position: 100% 100%; }
+.bnt{
+    width: 94.23px;
+    height: 35px;
+    margin: 55px;
+    background: #82B6FA;
+    border-radius: 20px;
+    border-color: #82B6FA;
+    font-weight: bolder;
 }
 
-.manuscript-page {
-    background: url('paper-texture.jpg');
-    color: #333;
-    padding: 2rem;
-    margin: 2rem auto;
-    max-width: 800px;
-    box-shadow: 0 0 15px rgba(0,0,0,0.5);
-    position: relative;
+.idioma{
+    float: right;
+    margin-top: 60px;
+    padding-right: 10px;
+
+    text-decoration: none;
+    color: #000000;
 }
 
-.typewriter {
-    overflow: hidden;
-    border-right: .15em solid var(--accent);
-    white-space: nowrap;
-    margin: 0 auto;
-    letter-spacing: .15em;
-    animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+#br-en{
+    width: 20px;
+    background: #FFFFFF;
 }
 
-@keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
+.marge{
+    margin-right: 20px;
 }
 
-@keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: var(--accent); }
+/*
+-----CONTÚEDO-----
+*/
+
+#conteudo{
+    margin-top: 414px;
+    margin-left: 600px;
 }
 
-/* Responsividade */
-@media (max-width: 768px) {
-    .flashlight {
-        display: none;
-    }
-    body {
-        cursor: default;
-    }
+.nome{
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+.form-esp{
+    font-size: 26px;
+}
+
+.slogan{
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.elipse{
+    position:absolute;
+    z-index: -1;
+    margin-left: -100px;
+    margin-top: 30px;
+}
+
+.elipse2{
+    position:absolute;
+    z-index: -1;
+    margin-top: -60px;
+    margin-left: 170px;
+}
+
+.elipse3{
+    position:absolute;
+    z-index: -1;
+    margin-top: -60px;
+    margin-left: 220px;
 }
